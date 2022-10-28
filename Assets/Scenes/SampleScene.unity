@@ -1224,6 +1224,7 @@ GameObject:
   - component: {fileID: 963194228}
   - component: {fileID: 963194227}
   - component: {fileID: 963194226}
+  - component: {fileID: 963194229}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1297,6 +1298,46 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &963194229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0da77545566ba847b6753cbc1615c5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cubesTransforms:
+  - {fileID: 906441774}
+  - {fileID: 270089046}
+  - {fileID: 1454208271}
+  - {fileID: 1264915410}
+  - {fileID: 933278246}
+  - {fileID: 927713002}
+  - {fileID: 1517719042}
+  - {fileID: 826916377}
+  - {fileID: 900114855}
+  - {fileID: 2027073625}
+  - {fileID: 77457700}
+  - {fileID: 1681660671}
+  - {fileID: 1434650458}
+  - {fileID: 1617140241}
+  - {fileID: 1345720055}
+  - {fileID: 557980053}
+  - {fileID: 523590660}
+  - {fileID: 2063156106}
+  - {fileID: 1337448027}
+  - {fileID: 146198509}
+  - {fileID: 1424374243}
+  - {fileID: 968984417}
+  - {fileID: 1874136701}
+  - {fileID: 34328825}
+  - {fileID: 1662110568}
+  - {fileID: 2056619767}
+  - {fileID: 632888659}
 --- !u!1 &968984414
 GameObject:
   m_ObjectHideFlags: 0
